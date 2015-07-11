@@ -73,11 +73,12 @@ class SimpleMG(object):
 if __name__ == "__main__":
 
     # we should get list of filenames from sys.argv
-    # we should make an instance of the class
+    generator = SimpleMG(input_files)
+    print generator.make_text()
     # we should call the read_files method with the list of filenames
     # we should call the make_text method 5x
 
-    pass
+
     
 
 
